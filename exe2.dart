@@ -10,3 +10,9 @@ class Point {
     print("Point: X=$x, Y=$y");
   }
 }
+void main () {
+  var pt = Point(2,5);
+  pt.display();
+  pt.Move(-1, 3);
+  pt.display();
+}
