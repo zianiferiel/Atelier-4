@@ -25,4 +25,7 @@ void main (){
   var cercle = Cercle (5);
   cercle.afficherMessage();
   print ('Aire du cercle: ${cercle.calculerAire()}');
+  var rectangle = Rectangle (4, 6);
+  rectangle.afficherMessage();
+  print ('Aire du rectangle: ${rectangle.calculerAire()}');
 }
