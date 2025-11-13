@@ -21,3 +21,8 @@ class Rectangle extends Forme {
     return largeur * longueur;
   }
 }
+void main (){
+  var cercle = Cercle (5);
+  cercle.afficherMessage();
+  print ('Aire du cercle: ${cercle.calculerAire()}');
+}
