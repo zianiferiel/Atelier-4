@@ -25,9 +25,15 @@ void main (){
   Livre l1 = Livre("1984", "George Orwell",200);
   Livre l2 = Livre("Le Petit Prince", "Antoine de Saint-Exupéry",96);
   Livre l3 = Livre("la Peste", "Albert Camus",308);
+  Roman r1 = Roman("Dune", "Frank Herbert", "Science-Fiction",412);
+  Roman r2 = Roman("Le Seigneur des Anneaux", "J.R.R. Tolkien", "Fantasy",1178);
+  Roman r3 = Roman("Foundation", "Isaac Asimov", "Science-Fiction",255);
   l1.afficherInfos();
   l2.afficherInfos();
   l3.afficherInfos();
+  r1.afficherInfos();
+  r2.afficherInfos();
+  r3.afficherInfos();
   print("Nombre total de livres créés : ${Livre.totalLivres}");
 }
 
