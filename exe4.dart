@@ -21,3 +21,14 @@ class Media{
       print("Ceci est un film $titre d'une durée de $dureeMinutes minutes.");
     }
     }
+    void main() {
+      List <Media> catalogue = [
+        Livre("1984", "George Orwell"),
+        Film("Inception", 148),
+        Livre("Le Petit Prince", "Antoine de Saint-Exupéry"),
+        Film("The Matrix", 136),
+      ];
+    for (var m in catalogue) {
+      m.afficherType();
+    }
+    }
