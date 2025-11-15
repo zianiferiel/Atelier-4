@@ -1,9 +1,5 @@
-class {
-  double _solde = 0.0;
+class Compte {
+  double _solde ;
   final String numeroCompte;
-  Compte (this.numeroCompte, [this.solde = 0.0]) 
+  Compte(this.numeroCompte,[ this._solde = 0.0]);
 }
-String get solde => '${_solde.toStringAsFixed(2)}\$';
-
-
-  
